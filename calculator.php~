@@ -314,7 +314,7 @@ while(true){
 
     if($current_s >= 0){
         $steps[$step_counter - 1]["title"] = "<b><u>Решение.</u></b>";
-        $steps[$step_counter]["title"] = "<b><u>Проверка.</u></b>";
+        $steps[$step_counter]["title"] = "<b><u>Проврка.</u></b>";
         $steps[$step_counter]["content"][] = "<br>";
         $steps[$step_counter]["content"][] = "<br>";
         $steps[$step_counter]["content"][] = "<br>";
