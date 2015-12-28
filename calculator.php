@@ -246,7 +246,7 @@ while(true){
     if($iterator == 1){
         $steps[$step_counter]["title"] = "Избор на начално базисно решение.";
     } else {
-        $steps[$step_counter]["title"] = "Намиране на ново бзисно решение след промяна на пропорциите по базисните маршрути.";
+        $steps[$step_counter]["title"] = "Намиране на ново базисно решение след промяна на пропорциите по базисните маршрути.";
     }
     $steps[$step_counter]["content"][0] = '<table class="result-table">';
     
