@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Transportation problem</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body>
+        <header class="header-basic">
+			<div class="header-limiter">
+
+				<h1><a href="index.html">Калкулатор за трансортна задача</a></h1>
+
+				<nav>
+					<a href="#" class="selected">Калкулатор</a>
+					<a href="problem.html">Проблем</a>
+					<a href="solution.html">Решение</a>
+				</nav>
+			</div>
+	  </header>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                  <div class="col-lg-6">
+                      <div class="col-lg-4" style="margin-top:5px;">Брой клиенти:</div>
+                      <div class="col-lg-8">
+                          <select id="clients_select" class="form-control">
+                              <option>2</option>
+                              <option>3</option>
+                              <option selected>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                              <option>7</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="col-lg-4" style="margin-top:5px;">Брой доставчици:</div>
+                      <div class="col-lg-8">
+                          <select id="dealers_select" class="form-control">
+                              <option>2</option>
+                              <option selected>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                              <option>7</option>
+                          </select>
+                      </div>
+                  </div>
+               </div>
+                 
+               <div class="row">
+                
+                  <!-- Table -->
+                    <table id="toc" class="heavyTable">
+                      
+                    </table>
+                    
+                    <button type="button" onclick="example()" class="btn btn-primary pull-right">Зареди примерни стойности</button>
+                    <div class="clear"></div>
+                    <small>* За навигация в таблицата могат да се използват стрелките на клавиатурата и бутон [Enter] за селектиране.</small><br />
+                    <small>** Стойностите в таблицата могат да бъдат само положителни числа. Ако въведете различна стойност, тя автоматично ще бъде заместена с 0.</small>
+                </div>
+            
+        </div> <!-- end of row -->
+        <div class="row">
+            <div id="steps" class="col-lg-12">
+                
+            </div>
+        </div>
+    
+    </div> <!-- End of container fluid-->
+    <footer>
+        <div class="footer-basic">
+            <div class="footer-limiter">
+                <div class="pull-left bold">Александър Петров</div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </footer>
+  </body>
+</html>
